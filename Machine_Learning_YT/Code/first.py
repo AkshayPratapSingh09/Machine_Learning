@@ -27,14 +27,12 @@ def plot_regression_line(x, y, b):
     # predicted response vector
     y_pred = b[0] + b[1]*x
   
-    # plotting the regression line
     plt.plot(x, y_pred, color = "g")
   
     # putting labels
     plt.xlabel('x')
     plt.ylabel('y')
-  
-    # function to show plot
+ 
     plt.show()
 
 x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
